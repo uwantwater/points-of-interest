@@ -1,5 +1,4 @@
 from OSMPythonTools.overpass import Overpass
-import json
 
 result = []
 
@@ -34,7 +33,4 @@ def points_of_interest(x_coord: float, y_coord: float):
             result.append(d)
 
         # print("\n")
-    print(result)
-
-
-points_of_interest(27.69474, 85.31902)
+    return result
